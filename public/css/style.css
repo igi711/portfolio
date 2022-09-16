@@ -1,0 +1,149 @@
+hr{
+    border: solid 4px lightblue;
+}
+
+#body{
+    background-color: black;
+    overflow: hidden;
+}
+
+.bum{
+    font-family: 'WillyWonka', arial;
+    font-size: 1vw;
+}
+
+.rainbowtext {
+    color: white;
+font-size: 6vw;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+                                                                
+
+#font{
+    font-family:'  font-family: 'Amatic SC Regular', arial;
+    font-size: 1.5vw;
+    background-image: linear-gradient(to right, deeppink, dodgerblue);
+    color: transparent;
+    -webkit-background-clip: text;
+    display: inline-block;
+}
+
+.portport{
+    width: 90px;
+    heigth: 90px;
+    border-radius: 20px;
+    background-color: dodgerblue;
+    transition: width 2s, height 4s;
+}
+
+.portport:hover{
+    width: 400px;
+    height: 400px;
+    background-image:-moz-linear-gradient(to right, deeppink, dodgerblue);
+}
+
+#logos{
+float: left;
+}
+
+#logos a{
+    color: dodgerblue;
+}
+#logos a:hover{
+    color: deeppink;
+}
+   
+#logos-2{
+    margin-top: 10%;
+    }
+    
+    #logos-2 a{
+        color: dodgerblue;
+    }
+    #logos-2 a:hover{
+        color: deeppink;
+    }
+
+.round{
+    width: 500px; 
+    height: 500px;
+    border: 4px dashed white;
+    border-radius: 100%;
+    margin: -30%;
+    margin-top: 10%;
+    overflow: hidden;
+    float: right;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+    transform: scale(1);
+    animation: pulse 2s infinite;
+    }
+   
+
+    @keyframes pulse {
+        0% {
+            transform: scale(0.95);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+        }
+    
+        70% {
+            transform: scale(1);
+            box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+        }
+    
+        100% {
+            transform: scale(0.95);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        }
+    }
+
+
+
+#workLink a{ 
+    color: deeppink;
+}
+
+#workLink a:hover{
+    background-image: linear-gradient(to right, deeppink, dodgerblue);
+    color: transparent;
+    -webkit-background-clip: text;
+    display: inline-block;
+}
+
+ .wpr{
+    position: relative;
+    font-weight: 900;
+    font-size: 7vw;
+}
+
+.wpr .text-wrapper{
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+}
+
+.wpr .letter{
+    display: inline-block;
+    line-height: 1em;
+}
+
+#personal{
+    margin: 0.5rem;
+
+}
+
+#cvbtn{
+    margin-top: 20%;
+}
+
+
+img{ 
+  width: 25%;
+  filter: blur(4px);
+}
+
+img:hover {
+   filter:none;
+}
